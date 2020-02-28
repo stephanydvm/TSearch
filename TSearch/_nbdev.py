@@ -2,9 +2,14 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"entrada": "00_core.ipynb",
+         "greedy": "00_core.ipynb",
+         "vecindario": "00_core.ipynb",
+         "f": "00_core.ipynb",
+         "new_best": "00_core.ipynb",
+         "update_T": "00_core.ipynb"}
 
-modules = []
+modules = ["core.py"]
 
 doc_url = "https://stephanydvm.github.io"
 

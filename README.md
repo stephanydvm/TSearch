@@ -6,9 +6,7 @@
 
 `pip install TSearch`
 
-## How to use
-
-Aquí el algoritmo.
+## How does it work?
 
 Recibes el número de ciudades:
 
@@ -16,25 +14,25 @@ Recibes el número de ciudades:
 N = int(input("Numero de ciudades: "))
 ```
 
-Recibes el número máximo de iteraciones
+Recibes el número máximo de iteraciones:
 
 ```
 I_max = int(input("Maximo de iteraciones: "))
 ```
 
-Recibes la matriz de costos de una ciudad a otra
+Recibes la matriz de costos de una ciudad a otra:
 
 ```
 mat_cost = entrada(N)
 ```
 
-Encuentras una solución inicial con el método _Greedy_
+Encuentras una solución inicial con el método _Greedy_:
 
 ```
 CT, best_sol = greedy(N,mat_cost)
 ```
 
-Inicializas el contador de iteraciones, la lista Taboo como conjunto vacío, y el nuevo elemento a insertar en la lista Taboo.
+Inicializas el contador de iteraciones, la lista Taboo como conjunto vacío, y el nuevo elemento a insertar en la lista Taboo:
 
 ```
 k = 0
@@ -60,7 +58,7 @@ while k < I_max:
 print(f(best_sol), best_sol)
 ```
 
-Ejemplo:
+## Example
 
 Con la siguiente entrada:
 
